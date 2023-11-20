@@ -4,6 +4,59 @@
 
 Tout changement important à ce projet sera consigné dans le présent fichier.
 
+## v0.17.0
+
+### Nouvelles fonctionnalités
+
+- Composant lien (`gcds-link`)
+  - Nouveau composant `gcds-link` permettant aux utilisateur·rice·s d’accéder à une autre page, à un autre site Web ou à une autre section de la même page.
+
+### Mineur
+
+- https://github.com/cds-snc/gcds-components/pull/305 - [2ffc292](https://github.com/cds-snc/gcds-components/commit/2ffc292828fd5eed53a4eb33cbe753da08f9dde0) \- Composant `gcds-link` ajouté à la bibliothèque de composants
+
+### Correctif
+
+- https://github.com/cds-snc/gcds-components/pull/333 - [5da32e0](https://github.com/cds-snc/gcds-components/commit/5da32e0546d7af52fb318a77e22d315327038b18) \- Ajout d’une valeur par défaut pour les marges supérieure et inférieure pour le composant texte
+- https://github.com/cds-snc/gcds-components/pull/338 - [96e4787](https://github.com/cds-snc/gcds-components/commit/96e4787b7c7f061279fc650d2dd4894d5ae2e193) \- Amélioration de l’accessibilité de Storybook pour les démonstrations en direct.
+
+## v0.16.0
+
+### Nouvelles fonctionnalités
+
+- Composant en-tête (`gcds-heading`)
+  - Nouveau composant `gcds-heading` permettant aux en-têtes de s’afficher dans le style de Système de design GC
+
+### Mineur
+
+- https://github.com/cds-snc/gcds-components/pull/306 - [c972bef](https://github.com/cds-snc/gcds-components/commit/c972befacb6961fed73c983df1fb4fda6cbc9ca5) \- Composant `gcds-heading` ajouté à la bibliothèque de composants
+
+### Correctif
+
+- https://github.com/cds-snc/gcds-components/pull/325 - [3ec8925](https://github.com/cds-snc/gcds-components/commit/3ec89251bf56b346df50ed67ad0a8992631240ff) \- Correction de l’emplacement CSS dans gcds-breadcrumbs-item pour afficher le texte souligné
+
+## v0.15.0
+
+### Nouvelles fonctionnalités
+
+- Composant texte (`gcds-text`)
+  - Nouveau composant `gcds-text` permettant au texte de s’afficher dans le style de Système de design GC
+- Composant pour texte destiné aux lecteurs d’écran (`gcds-sr-only`)
+  - Nouveau composant `gcds-sr-only` dissimulant le texte réservé aux personnes utilisant des technologies d’assistance
+
+### Mineur
+
+- https://github.com/cds-snc/gcds-components/pull/311 - [39c2135](https://github.com/cds-snc/gcds-components/commit/39c2135f3f9eb6ef3fcfa834cb0ab8cfdbc1c498) \- Composant `gcds-text` ajouté à la bibliothèque de composants
+- https://github.com/cds-snc/gcds-components/pull/315 - [c8f0aa1](https://github.com/cds-snc/gcds-components/commit/8117534ffe52c998be9e09002f1dbbe1ec528f48) \- Composant `gcds-sr-only` ajouté à la bibliothèque de composants
+
+### Correctif
+
+- https://github.com/cds-snc/gcds-components/pull/272 - [c48d92f](https://github.com/cds-snc/gcds-components/commit/c48d92f3eb1dc13b368e3140d9f289d66b843638) \- Mise à jour des requêtes médias dans `gcds-pagination`
+- https://github.com/cds-snc/gcds-components/pull/291 - [d4d6f9f](https://github.com/cds-snc/gcds-components/commit/d4d6f9fbb79437a06f2316b5e1ffea5c55110f38) \- Suppression du libellé nav landmark pour éviter toute confusion dans `gcds-header`
+- https://github.com/cds-snc/gcds-components/pull/294 - [e6a550a](https://github.com/cds-snc/gcds-components/commit/e6a550a0f5695d65bb8c9ee2f42f55f7abaacd7e) \- Configuration des propriétés par défaut dans `gcds-signature`
+- https://github.com/cds-snc/gcds-components/pull/317 - [ac5d6e7](https://github.com/cds-snc/gcds-components/commit/ac5d6e7db5b0ec3155441ff33d243c27d6322854) \- Ajout aux composants d’une ombre de boîte à l’état ciblé pour un état ciblé cohérent
+- https://github.com/cds-snc/gcds-components/pull/318 - [2bf8fde](https://github.com/cds-snc/gcds-components/commit/2bf8fdeedc18726f176bc4b1a54203ee41c04036) \- Ajout de styles d’emplacements pour aider à corriger les problèmes d’accessibilité de Chrome pour les composants utilisant des emplacements basés sur le texte
+
 ## v0.14.0
 
 ### Nouvelles fonctionnalités
@@ -150,6 +203,59 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 # 
 
 
+
+## 
+
+### 
+
+- 
+  - 
+
+### 
+
+- 
+
+### 
+
+- 
+- 
+
+## 
+
+### 
+
+- 
+  - 
+
+### 
+
+- 
+
+### 
+
+- 
+
+## 
+
+### 
+
+- 
+  - 
+- 
+  - 
+
+### 
+
+- 
+- 
+
+### 
+
+- 
+- 
+- 
+- 
+- 
 
 ## 
 
