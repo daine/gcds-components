@@ -21,7 +21,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - Composant lien (`gcds-link`)
   - Nouveau composant `gcds-link` permettant aux utilisateur·rice·s d’accéder à une autre page, à un autre site Web ou à une autre section de la même page.
 
-### Mineur
+### Changement mineur
 
 - https://github.com/cds-snc/gcds-components/pull/305 - [2ffc292](https://github.com/cds-snc/gcds-components/commit/2ffc292828fd5eed53a4eb33cbe753da08f9dde0) \- Composant `gcds-link` ajouté à la bibliothèque de composants
 
@@ -37,7 +37,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - Composant en-tête (`gcds-heading`)
   - Nouveau composant `gcds-heading` permettant aux en-têtes de s’afficher dans le style de Système de design GC
 
-### Mineur
+### Changement mineur
 
 - https://github.com/cds-snc/gcds-components/pull/306 - [c972bef](https://github.com/cds-snc/gcds-components/commit/c972befacb6961fed73c983df1fb4fda6cbc9ca5) \- Composant `gcds-heading` ajouté à la bibliothèque de composants
 
@@ -54,7 +54,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - Composant pour texte destiné aux lecteurs d’écran (`gcds-sr-only`)
   - Nouveau composant `gcds-sr-only` dissimulant le texte réservé aux personnes utilisant des technologies d’assistance
 
-### Mineur
+### Changement mineur
 
 - https://github.com/cds-snc/gcds-components/pull/311 - [39c2135](https://github.com/cds-snc/gcds-components/commit/39c2135f3f9eb6ef3fcfa834cb0ab8cfdbc1c498) \- Composant `gcds-text` ajouté à la bibliothèque de composants
 - https://github.com/cds-snc/gcds-components/pull/315 - [c8f0aa1](https://github.com/cds-snc/gcds-components/commit/8117534ffe52c998be9e09002f1dbbe1ec528f48) \- Composant `gcds-sr-only` ajouté à la bibliothèque de composants
@@ -74,7 +74,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - Composant menu des thèmes et sujets (`gcds-topic-menu`)
   - Nouveau composant `gcds-topic-menu` pour la conformité avec canada.ca
 
-### Mineur
+### Changement mineur
 
 - https://github.com/cds-snc/gcds-components/pull/223 - [c8f0aa1](https://github.com/cds-snc/gcds-components/commit/c8f0aa1107404b5093731548f072d22e8bb699a3) \- Composant `gcds-topic-menu` ajouté à la bibliothèque de composants
 
@@ -97,7 +97,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - Composant en-tête (`gcds-header`)
   - L’élément `topnav` du composant `gcds-header` a été renommé à `skip-to-nav`
 
-### Mineur
+### Changement mineur
 
 - https://github.com/cds-snc/gcds-components/pull/212 - [c8f0aa1](https://github.com/cds-snc/gcds-components/commit/c8f0aa1107404b5093731548f072d22e8bb699a3) \- Composant `gcds-search` ajouté à la bibliothèque de composants
 - https://github.com/cds-snc/gcds-components/pull/225 - [2bc48f9](https://github.com/cds-snc/gcds-components/commit/2bc48f9f51e967c0d12b20b191fbfe2ff54790e1) \- Élément `topnav` du composant `gcds-header` renommé à `skip-to-nav`
@@ -131,7 +131,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - Résumé des erreurs (`gcds-error-summary`)
   - Propriété `sub-heading` (sous-titre) supprimée du composant `gcds-error-summary`
 
-### Mineur
+### Changement mineur
 
 - https://github.com/cds-snc/gcds-components/pull/201 - [a922e5f](https://github.com/cds-snc/gcds-components/commit/a922e5fab3a690b4d2a1bc6cd81192a3265a9c63) \- Composants `gcds-top-nav`, `gcds-side-nav`, `gcds-nav-group` et `gcds-nav-link` ajoutés à la bibliothèque
 - https://github.com/cds-snc/gcds-components/pull/203 - [2f0915e](https://github.com/cds-snc/gcds-components/commit/2f0915ecb7d9426062b423e27529ee38667cc1b9) \- Styles des erreurs de formulaire mis à jour
@@ -155,7 +155,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - Composant boîte (`gcds-container`)
   - Propriété `container` (boîte) renommée à `size` (taille)
 
-### Mineur
+### Changement mineur
 
 - https://github.com/cds-snc/gcds-components/pull/183 - [b64db5d](https://github.com/cds-snc/gcds-components/commit/b64db5d0877adfdd38d400b2a0687d039760b08d) \- Composant `gcds-card` ajouté à la bibliothèque de composants
 
@@ -196,7 +196,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - Mise à jour vers Angular v15
   - Le dépôt `@cdssnc/gcds-components-angular` a été mis à jour vers Angular v15. Le package ne fonctionnera plus avec Angular v14.
 
-### Mineur
+### Changement mineur
 
 - https://github.com/cds-snc/gcds-components/pull/144 - [d88d5f2](https://github.com/cds-snc/gcds-components/commit/d88d5f21e82dfb55b14aba6c0a98da03c17833e1) \- Composant `gcds-error-summary` ajouté à la bibliothèque de composants
 - https://github.com/cds-snc/gcds-components/pull/149 - [a531b14](https://github.com/cds-snc/gcds-components/commit/a531b14050a2cce28fa6300a0551e2335962fabc) \- Dépôt `@cdssnc/gcds-components-angular` mis à jour vers Angular v15
