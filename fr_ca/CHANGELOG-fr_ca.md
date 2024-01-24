@@ -4,6 +4,16 @@
 
 Tout changement important à ce projet sera consigné dans le présent fichier.
 
+## v0.17.1
+
+### Correctif
+
+- https://github.com/cds-snc/gcds-components/pull/346 - [16732e5](https://github.com/cds-snc/gcds-components/commit/16732e5dc068cdb65d17f5485bb3189b2871836c) \- Mise à jour de la configuration de la génération de gabarits pour une meilleure intégration avec plusieurs infrastructures (Nextjs et create-react-app)
+
+- https://github.com/cds-snc/gcds-components/pull/350 - [2F41435](https://github.com/cds-snc/gcds-components/commit/2f4143543dfa6f7823fa03847e0f24cf4bf9d0d3) \- Correctif : réinitialisation des styles d’emplacement
+
+- https://github.com/cds-snc/gcds-components/pull/351 - [d03c792](https://github.com/cds-snc/gcds-components/commit/d03c7924216a59fb7203d4e87743045e235dc745) \- Mise à jour du contenu de la démo
+
 ## v0.17.0
 
 ### Nouvelles fonctionnalités
@@ -204,7 +214,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 
 
 
-## 
+## v0.17.0
 
 ### 
 
@@ -220,7 +230,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - 
 - 
 
-## 
+## v0.16.0
 
 ### 
 
@@ -235,7 +245,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 
 - 
 
-## 
+## v0.15.0
 
 ### 
 
@@ -257,88 +267,7 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - 
 - 
 
-## 
-
-### 
-
-- 
-  - 
-
-### 
-
-- 
-
-### 
-
-- 
-- 
-- 
-- 
-
-## 
-
-### 
-
-- 
-  - 
-
-### 
-
-- 
-  - 
-
-### 
-
-- 
-- 
-
-### 
-
-- 
-- 
-- 
-- 
-
-## 
-
-### 
-
-- 
-
-## 
-
-### 
-
-- 
-  - 
-- 
-  - 
-
-### 
-
-- 
-  - 
-- 
-  - 
-
-### 
-
-- 
-- 
-- 
-- 
-
-### 
-
-- 
-- 
-
-## 
-
-### 
-
-- 
-  - 
+## v0.14.0
 
 ### 
 
@@ -356,14 +285,95 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - 
 - 
 
-## 
+## v0.13.0
+
+### 
+
+- 
+  - 
+
+### 
+
+- 
+  - 
 
 ### 
 
 - 
 - 
 
-## 
+### 
+
+- 
+- 
+- 
+- 
+
+## v0.12.1
+
+### 
+
+- 
+
+## v0.12.0
+
+### 
+
+- 
+  - 
+- 
+  - 
+
+### 
+
+- 
+  - 
+- 
+  - 
+
+### 
+
+- 
+- 
+- 
+- 
+
+### 
+
+- 
+- 
+
+## v0.11.0
+
+### 
+
+- 
+  - 
+
+### 
+
+- 
+  - 
+
+### 
+
+- 
+
+### 
+
+- 
+- 
+- 
+- 
+
+## v0.10.3
+
+### 
+
+- 
+- 
+
+## v0.10.2
 
 ### 
 
@@ -371,13 +381,13 @@ Tout changement important à ce projet sera consigné dans le présent fichier.
 - 
 - 
 
-## 
+## v0.10.1
 
 ### 
 
 - 
 
-## 
+## v0.10.0
 
 ### 
 
