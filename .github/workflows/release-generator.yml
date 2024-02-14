@@ -26,9 +26,17 @@ jobs:
           release-type: node
           default-branch: main
 
+      - name: Git Checkout
+        if: ${{ steps.release.outputs.releases_created }}
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+
+      - uses: actions/setup-node@d86ebcd40b3cb50b156bfa44dd277faf38282d12
+        if: ${{ steps.release.outputs.releases_created }}
+        with:
+          node-version: 18
+
       - name: Update version
         if: ${{ steps.release.outputs.releases_created }}
         run: |
           npm install
-          npx lerna bootstrap
           npx lerna version --conventional-commits
