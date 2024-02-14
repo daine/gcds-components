@@ -19,8 +19,16 @@ jobs:
           private_key: ${{ secrets.SRE_APP_PRIVATE_KEY }}
 
       - uses: google-github-actions/release-please-action@cc61a07e2da466bebbc19b3a7dd01d6aecb20d1e # v4.0.2
+        id: release
         with:
           command: manifest
           token: ${{ steps.sre_app_token.outputs.token }}
           release-type: node
           default-branch: main
+
+      - name: Update version
+        if: ${{ steps.release.outputs.releases_created }}
+        run: |
+          npm install
+          npx lerna bootstrap
+          npx lerna version --conventional-commits
