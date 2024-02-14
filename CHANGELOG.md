@@ -4,6 +4,41 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.0.0 (2024-02-14)
+
+
+### Features
+
+* add light link-variant to link component ([#358](https://github.com/daine/gcds-components/issues/358)) ([34b392d](https://github.com/daine/gcds-components/commit/34b392d39f2ca0158fd608e46dcfc0509bbc69c0))
+* add new grid functionality ([#356](https://github.com/daine/gcds-components/issues/356)) ([3a1a9c6](https://github.com/daine/gcds-components/commit/3a1a9c694245ae2fad37cf7878618aa7a0584841))
+* lerna monorepo config ([#388](https://github.com/daine/gcds-components/issues/388)) ([424b138](https://github.com/daine/gcds-components/commit/424b138d6ebf8e3df77b2e265ff386bf1e39d7cf))
+* Link component ([#305](https://github.com/daine/gcds-components/issues/305)) ([2ffc292](https://github.com/daine/gcds-components/commit/2ffc292828fd5eed53a4eb33cbe753da08f9dde0))
+* publish new packages to CDN ([#168](https://github.com/daine/gcds-components/issues/168)) ([cd4df58](https://github.com/daine/gcds-components/commit/cd4df5868f7efdfcfe80f57af0f8671323e4d294))
+* report deployment status to Sentinel ([#298](https://github.com/daine/gcds-components/issues/298)) ([2cde4b3](https://github.com/daine/gcds-components/commit/2cde4b37fd829c53fec23b54c2afd186c8929b2d))
+* Slack notify on publish workflow failure ([#170](https://github.com/daine/gcds-components/issues/170)) ([376d63e](https://github.com/daine/gcds-components/commit/376d63e8ebcc5abcb154225a2570aa1a5a4d06ce))
+
+
+### Bug Fixes
+
+* Change slot CSS in gcds-breadcrumbs to display text underline ([#325](https://github.com/daine/gcds-components/issues/325)) ([3ec8925](https://github.com/daine/gcds-components/commit/3ec89251bf56b346df50ed67ad0a8992631240ff))
+* change slot styles to initial ([#350](https://github.com/daine/gcds-components/issues/350)) ([2f41435](https://github.com/daine/gcds-components/commit/2f4143543dfa6f7823fa03847e0f24cf4bf9d0d3))
+* **deps:** update all minor dependencies ([#71](https://github.com/daine/gcds-components/issues/71)) ([93903d7](https://github.com/daine/gcds-components/commit/93903d7b1b86151139dc7d232248c52b8e4c5093))
+* **deps:** update all patch dependencies ([#296](https://github.com/daine/gcds-components/issues/296)) ([0a015e7](https://github.com/daine/gcds-components/commit/0a015e7f1a81c27516d7ce51bdd9e9e09a64d421))
+* **deps:** update all patch dependencies to v7.6.10 ([#386](https://github.com/daine/gcds-components/issues/386)) ([8494806](https://github.com/daine/gcds-components/commit/84948065888c16833a790a870ee0a711eb39856a))
+* **deps:** update dependency @stencil/core to v3 ([#173](https://github.com/daine/gcds-components/issues/173)) ([7efffe3](https://github.com/daine/gcds-components/commit/7efffe3eb28488ae289b1dfcf6dd8ed96e65381f))
+* File-uploader not validating properly ([#364](https://github.com/daine/gcds-components/issues/364)) ([ee16326](https://github.com/daine/gcds-components/commit/ee16326a0daa8edb126c273f85c85c2a3cf0ef58))
+* fix storybook spacing in component preview ([df39443](https://github.com/daine/gcds-components/commit/df3944321e81866eda41016c449279ca7b6ec619))
+* give `npm publish` time to complete ([#329](https://github.com/daine/gcds-components/issues/329)) ([9c86dc3](https://github.com/daine/gcds-components/commit/9c86dc3cce95b1a28d21f2df1e6f6b80dd4bd867))
+* header slots in story ([#362](https://github.com/daine/gcds-components/issues/362)) ([a96c1f8](https://github.com/daine/gcds-components/commit/a96c1f8512d6bfd3a0445727a0530d7d07f35838))
+* header slots in story ([#362](https://github.com/daine/gcds-components/issues/362)) ([ac2ea8c](https://github.com/daine/gcds-components/commit/ac2ea8c0644fd98c53789cddcdb060c4b744cdcf))
+* Hide chevron on first breadcrumb item ([#153](https://github.com/daine/gcds-components/issues/153)) ([68aab03](https://github.com/daine/gcds-components/commit/68aab03311405d24e32e235eec4f548540e8250e))
+* link variant prop name ([#363](https://github.com/daine/gcds-components/issues/363)) ([ab0e404](https://github.com/daine/gcds-components/commit/ab0e4042d4db0c580fd61a049bd8a2696d9b3141))
+* merge conflict commit ([a326e9a](https://github.com/daine/gcds-components/commit/a326e9a539b9f95f5f06e8b2917ce1ab519a4a69))
+* storybook spacing in component preview ([#427](https://github.com/daine/gcds-components/issues/427)) ([df39443](https://github.com/daine/gcds-components/commit/df3944321e81866eda41016c449279ca7b6ec619))
+* update font awesome instructions in readme ([#353](https://github.com/daine/gcds-components/issues/353)) ([e9624f0](https://github.com/daine/gcds-components/commit/e9624f071888db71abbf60b5869dc19d6e49b4b9))
+* update lock file maintenance to once a month ([#83](https://github.com/daine/gcds-components/issues/83)) ([7e88c7e](https://github.com/daine/gcds-components/commit/7e88c7e467dcd9986fcccc9b7344df745d91561d))
+* update renovate base branch ([#370](https://github.com/daine/gcds-components/issues/370)) ([e8d0947](https://github.com/daine/gcds-components/commit/e8d09475be5f0f46e64f233f7803117c90d8733f))
+
 ## v0.18.1
 
 ### Minor
