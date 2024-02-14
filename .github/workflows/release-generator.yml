@@ -22,7 +22,7 @@ jobs:
         id: release
         with:
           command: manifest
-          token: ${{ secretes.GH_TOKEN }}
+          token: ${{ secrets.GH_TOKEN }}
           release-type: node
           default-branch: main
 
