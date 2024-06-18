@@ -1,4 +1,4 @@
-name: Upload to S3 Example
+name: Upload packages to CDN
 
 on:
   workflow_dispatch:
@@ -12,40 +12,63 @@ permissions:
   contents: read
 
 env:
-  CDN_BUCKET: gc-design-system-production-cdn
+  # TODO: Replace with correct bucket name in production
+  CDN_BUCKET: gc-design-system-daine-scratch-cdn
   CDN_REGION: ca-central-1
 
 jobs:
   upload-to-cdn:
     runs-on: ubuntu-latest
 
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - name: "web"
+            package: "@cdssnc/gcds-components"
+            dist: "./packages/web"
+
+          - name: "react"
+            package: "@cdssnc/gcds-components-react"
+            dist: "./packages/react"
+
+          - name: "angular"
+            package: "@cdssnc/gcds-components-angular"
+            dist: "./packages/angular/dist"
+
+          - name: "vue"
+            package: "@cdssnc/gcds-components-vue"
+            dist: "./packages/vue"
+
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@a5ac7e51b41094c92402da3b24376905380afc29 # v4.1.6
 
-      - name: Install AWS CLI
-        run: sudo apt-get install awscli -y
+      - name: Install jq and aws cli
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y jq
+          sudo apt-get install awscli -y
 
-      - name: Make retry script executable
-        run: chmod +x ./utils/scripts/retry.sh
-
-      - name: Make upload script executable
+      - name: Make Upload to CDN script executable
         run: chmod +x ./utils/scripts/upload_to_cdn.sh
 
       - name: Configure AWS credentials using OIDC
-        # Replace with....something else
-#        if: steps.publish.outputs.id != ''
-        uses: aws-actions/configure-aws-credentials@50ac8dd1e1b10d09dac7b8727528b91bed831ac0 # v3.0.2
+        # TODO: Replace with correct role on production
+        uses: aws-actions/configure-aws-credentials@e3dd6a429d7300a6a4c196c26e071d42e0343502 # v4.0.2
         with:
           role-to-assume: arn:aws:iam::951846448183:role/daine-gcds-components-apply
           role-session-name: CDNPublish
           aws-region: ${{ env.CDN_REGION }}
 
       - name: Upload file to S3
-        run: ./retry.sh 3 "echo 'hello world'"
-#        run: ./retry.sh 3 ./upload_to_cdn.sh
-
+        run: ./utils/scripts/upload_to_cdn.sh ${{ matrix.package }}
         env:
-          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
-          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-          AWS_DEFAULT_REGION: your-region
+          CDN_CLOUDFRONT_DIST_ID: ${{secrets.CDN_CLOUDFRONT_DIST_ID}}
+          PACKAGE_PATH: ${{ matrix.dist }}
+
+      - name: Slack notify on failure
+        if: failure()
+        run: |
+          json='{"blocks":[{"type":"section","text":{"type":"mrkdwn","text":":red: CDN upload ${{ matrix.package }} failed: <https://github.com/cds-snc/gcds-components/actions/workflows/upload-cdn.yml|Upload packages to CDN>"}}]}'
+          curl -X POST -H 'Content-type: application/json' --data "$json" ${{ secrets.SLACK_WEBHOOK_OPS }}
