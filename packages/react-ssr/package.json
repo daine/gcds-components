@@ -1,6 +1,6 @@
 {
-  "name": "@cdssnc/gcds-components-react-ssr",
-  "version": "0.22.0-canary.0",
+  "name": "@dainetrinidad/gcds-components-react-ssr",
+  "version": "0.22.0-canary.3",
   "author": "Government of Canada / Gouvernement du Canada",
   "license": "MIT",
   "publishConfig": {
